@@ -10,3 +10,9 @@ Projeto de Modelagem de Software Orientado a Objeto
 
 ## Diagrama das OCs:
 ![image](diagrama_OC.png)
+
+## Diagrama das OVs:
+![image](diagrama_OV.png)
+
+## Diagrama Sequencial:
+![image](Sequencia_(6).png)
