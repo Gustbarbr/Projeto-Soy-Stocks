@@ -7,3 +7,6 @@ Projeto de Modelagem de Software Orientado a Objeto
 
 ## Diagrama do Extrato:
 ![image](diagrama_extrato.png)
+
+## Diagrama das OCs:
+![image](diagrama_OC.png)
