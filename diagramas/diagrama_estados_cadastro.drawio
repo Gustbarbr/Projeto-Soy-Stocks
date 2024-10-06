@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
+  <diagram name="Página-1" id="T3cv6yq5pU9cF9Ucxiyj">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6000" pageHeight="6000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A5qY907hHVmJ39XALq1i-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="1210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-1" target="A5qY907hHVmJ39XALq1i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-1" value="&lt;div&gt;Estado Inicial (Cliente não Cadastrado)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=34;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="582" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="575" y="601" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-8" value="Consultar Cadastro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="586" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-9" value="+ consulta_email()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A5qY907hHVmJ39XALq1i-8">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-13" value="Consultar cadastro por E-Mail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="571" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-15" target="A5qY907hHVmJ39XALq1i-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-15" value="Realiza Cadastro" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="530" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-16" value="+ cadastrar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A5qY907hHVmJ39XALq1i-15">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-8" target="A5qY907hHVmJ39XALq1i-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-20" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;[Se o E--Mail nao for encontrado] / Realiza Cadastro&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="835" y="520" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-21" value="Estado Final (Cliente Cadastrado)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="530" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-26" target="A5qY907hHVmJ39XALq1i-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="545" width="22" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-30" value="&lt;div&gt;Estado Final (Cadastro Negado)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="623" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A5qY907hHVmJ39XALq1i-9" target="A5qY907hHVmJ39XALq1i-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A5qY907hHVmJ39XALq1i-35" value="[Se o E-Mail for encontrado] / Cadastro Negado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="855" y="650" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
